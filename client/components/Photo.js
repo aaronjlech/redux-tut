@@ -9,7 +9,6 @@ const Photo = React.createClass({
    render(){
       const {post, comments, i, } = this.props;
       console.log(this.props)
-         console.log(this.props.increment(null, i), 'whatt')
       return(
          <figure className="grid-figure">
             <div className="grid-photo-wrap">

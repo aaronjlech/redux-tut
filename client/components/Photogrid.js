@@ -13,7 +13,7 @@ const PhotoGrid = React.createClass({
             {this.props.posts.map((post, i)=>
                {
                   return (
-                     <Photo {...this.props} key={i} post={post}/>
+                     <Photo {...this.props} i={i} key={i} post={post}/>
                   )
 
             })}
